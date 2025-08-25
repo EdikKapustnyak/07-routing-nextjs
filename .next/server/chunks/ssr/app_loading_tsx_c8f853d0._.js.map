@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["file:///Volumes/Macintosh%20HD%20-%20Data/%20IT%20Project/Goit/Next.js/07-routing-nextjs/app/loading.tsx"],"sourcesContent":["const Loading = () => {\n    return (\n        <p>Loading, please wait...</p>\n\n    );\n}\n\nexport default Loading;"],"names":[],"mappings":";;;;;AAAA,MAAM,UAAU;IACZ,qBACI,8OAAC;kBAAE;;;;;;AAGX;uCAEe","debugId":null}}]
+}

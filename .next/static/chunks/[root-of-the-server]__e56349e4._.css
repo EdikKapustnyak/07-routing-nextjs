@@ -1,0 +1,242 @@
+/* [next]/internal/font/google/geist_e531dabc.module.css [app-client] (css) */
+@font-face {
+  font-family: Geist;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/973faccb4f6aedb5-s.b7d310ad.woff2") format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+
+@font-face {
+  font-family: Geist;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/d26cc22533d232c7-s.81df3a5b.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Geist;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/b0a57561b6cb5495-s.p.da1ebef7.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Geist Fallback;
+  src: local(Arial);
+  ascent-override: 95.94%;
+  descent-override: 28.16%;
+  line-gap-override: 0.0%;
+  size-adjust: 104.76%;
+}
+
+.geist_e531dabc-module__QGiZLq__className {
+  font-family: Geist, Geist Fallback;
+  font-style: normal;
+}
+
+.geist_e531dabc-module__QGiZLq__variable {
+  --font-geist-sans: "Geist", "Geist Fallback";
+}
+
+/* [next]/internal/font/google/geist_mono_68a01160.module.css [app-client] (css) */
+@font-face {
+  font-family: Geist Mono;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/942c7eecbf9bc714-s.cb6bbcb1.woff2") format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+
+@font-face {
+  font-family: Geist Mono;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/e5e2a9f48cda0a81-s.e32db976.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Geist Mono;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/8ee3a1ba4ed5baee-s.p.be19f591.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Geist Mono Fallback;
+  src: local(Arial);
+  ascent-override: 74.67%;
+  descent-override: 21.92%;
+  line-gap-override: 0.0%;
+  size-adjust: 134.59%;
+}
+
+.geist_mono_68a01160-module__YLcDdW__className {
+  font-family: Geist Mono, Geist Mono Fallback;
+  font-style: normal;
+}
+
+.geist_mono_68a01160-module__YLcDdW__variable {
+  --font-geist-mono: "Geist Mono", "Geist Mono Fallback";
+}
+
+/* [project]/app/footer.module.css [app-client] (css) */
+.footer-module__-nrVtG__footer {
+  text-align: center;
+  color: #555;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ddd;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.footer-module__-nrVtG__wrap {
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+}
+
+.footer-module__-nrVtG__footer a {
+  color: #226ec5;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer-module__-nrVtG__footer a:hover {
+  text-decoration: underline;
+}
+
+/* [project]/components/Header/Header.module.css [app-client] (css) */
+.Header-module__arFiJq__header {
+  color: #fff;
+  background-color: #333;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  display: flex;
+}
+
+.Header-module__arFiJq__header a {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.Header-module__arFiJq__header a:hover {
+  color: #ddd;
+}
+
+.Header-module__arFiJq__navigation {
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.Header-module__arFiJq__navigation li a {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.Header-module__arFiJq__navigation li a:hover {
+  color: #ddd;
+}
+
+/* [project]/components/TagsMenu/TagsMenu.module.css [app-client] (css) */
+.TagsMenu-module__9uIDiq__menuContainer {
+  display: inline-block;
+  position: relative;
+}
+
+.TagsMenu-module__9uIDiq__menuButton {
+  color: #333;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 16px;
+  transition: background-color .3s, box-shadow .2s;
+}
+
+.TagsMenu-module__9uIDiq__menuButton:hover {
+  background-color: #eaeaea;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.TagsMenu-module__9uIDiq__menuList {
+  z-index: 1000;
+  background-color: #353333;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 10px;
+  margin: 0;
+  padding: 6px 12px;
+  list-style: none;
+  display: flex;
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+}
+
+.TagsMenu-module__9uIDiq__menuItem {
+  margin: 0;
+}
+
+.TagsMenu-module__9uIDiq__menuLink {
+  color: #f0f0f0;
+  padding: 8px 16px;
+  font-size: 15px;
+  text-decoration: none;
+  transition: background-color .2s;
+  display: block;
+}
+
+.TagsMenu-module__9uIDiq__menuLink:hover {
+  color: #333;
+  background-color: #f0f0f0;
+}
+
+/* [project]/components/Footer/Footer.module.css [app-client] (css) */
+.Footer-module__rnk_JG__footer {
+  text-align: center;
+  color: #555;
+  background-color: #000;
+  border-top: 1px solid #ddd;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.Footer-module__rnk_JG__wrap {
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+}
+
+.Footer-module__rnk_JG__footer a {
+  color: #226ec5;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.Footer-module__rnk_JG__footer a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=%5Broot-of-the-server%5D__e56349e4._.css.map*/

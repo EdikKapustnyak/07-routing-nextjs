@@ -1,0 +1,59 @@
+/* [project]/components/TagsMenu/TagsMenu.module.css [app-client] (css) */
+.TagsMenu-module__9uIDiq__menuContainer {
+  display: inline-block;
+  position: relative;
+}
+
+.TagsMenu-module__9uIDiq__menuButton {
+  color: #333;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 16px;
+  transition: background-color .3s, box-shadow .2s;
+}
+
+.TagsMenu-module__9uIDiq__menuButton:hover {
+  background-color: #eaeaea;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.TagsMenu-module__9uIDiq__menuList {
+  z-index: 1000;
+  background-color: #353333;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 10px;
+  margin: 0;
+  padding: 6px 12px;
+  list-style: none;
+  display: flex;
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+}
+
+.TagsMenu-module__9uIDiq__menuItem {
+  margin: 0;
+}
+
+.TagsMenu-module__9uIDiq__menuLink {
+  color: #f0f0f0;
+  padding: 8px 16px;
+  font-size: 15px;
+  text-decoration: none;
+  transition: background-color .2s;
+  display: block;
+}
+
+.TagsMenu-module__9uIDiq__menuLink:hover {
+  color: #333;
+  background-color: #f0f0f0;
+}
+
+/*# sourceMappingURL=components_TagsMenu_TagsMenu_module_css_e59ae46c._.single.css.map*/

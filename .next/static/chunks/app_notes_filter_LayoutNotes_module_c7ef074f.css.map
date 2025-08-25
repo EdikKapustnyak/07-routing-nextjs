@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Volumes/Macintosh%20HD%20-%20Data/%20IT%20Project/Goit/Next.js/07-routing-nextjs/app/notes/filter/LayoutNotes.module.css"],"sourcesContent":[".container {\n    display: flex;\n    flex-direction: row;\n    height: 100vh;\n}\n\n.sidebar {\n    width: 250px;\n    background-color: #2c2c2c;\n    color: white;\n    padding: 16px;\n    display: flex;\n    flex-direction: column;\n    height: 100vh;\n    border-right: 1px solid #ddd;\n    \n}\n\n.notesWrapper {\n    width: 100%;\n}\n"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;;;;;;;;AAYA","debugId":null}}]
+}

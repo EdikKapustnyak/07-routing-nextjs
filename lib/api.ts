@@ -17,7 +17,6 @@ function createAxiosInstance() {
 }
 
 export interface FetchNotesResponse {
-  total: number;
   notes: Note[];
   totalPages: number;
 }
@@ -26,7 +25,7 @@ export const fetchNotes = async (
   page = 1,
   perPage = 12,
   search = "",
-  tagId?: string
+  tag?: string
 ): Promise<FetchNotesResponse> => {
   const instance = createAxiosInstance();
 
@@ -36,8 +35,8 @@ export const fetchNotes = async (
     params.search = search.trim();
   }
 
-  if (tagId) {
-    params.tagId = tagId;
+  if (tag) {
+    params.tag = tag;
   }
 
   const res = await instance.get<FetchNotesResponse>("/notes", { params });

@@ -1,0 +1,27 @@
+/* [project]/app/footer.module.css [app-client] (css) */
+.footer-module__-nrVtG__footer {
+  text-align: center;
+  color: #555;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ddd;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.footer-module__-nrVtG__wrap {
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+}
+
+.footer-module__-nrVtG__footer a {
+  color: #226ec5;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer-module__-nrVtG__footer a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=app_footer_module_css_e59ae46c._.single.css.map*/

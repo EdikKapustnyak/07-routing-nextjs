@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 30, "column": 0}, "map": {"version":3,"sources":["file:///Volumes/Macintosh%20HD%20-%20Data/%20IT%20Project/Goit/Next.js/07-routing-nextjs/app/%40modal/default.tsx"],"sourcesContent":["const Default = () => null\nexport default Default;"],"names":[],"mappings":";;;AAAA,MAAM,UAAU,IAAM;uCACP","debugId":null}}]
+}

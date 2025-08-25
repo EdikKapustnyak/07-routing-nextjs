@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Volumes/Macintosh%20HD%20-%20Data/%20IT%20Project/Goit/Next.js/07-routing-nextjs/app/notes/filter/%5B...slug%5D/error.tsx"],"sourcesContent":["\"use client\";\ntype ErrorProps = {\n    error: Error;\n    reset: () => void;\n}\n\n\nconst Error = ({error, reset}: ErrorProps) => {\n    return (\n        <p>Could not fetch the list of notes. {error.message}</p>\n        // <button onClick={reset}>Try again</button>\n\n    );\n}\n\nexport default Error;"],"names":[],"mappings":";;;;AAAA;;AAOA,MAAM,QAAQ;QAAC,EAAC,KAAK,EAAE,KAAK,EAAa;IACrC,qBACI,6LAAC;;YAAE;YAAoC,MAAM,OAAO;;;;;;;AAI5D;KANM;uCAQS","debugId":null}}]
+}
